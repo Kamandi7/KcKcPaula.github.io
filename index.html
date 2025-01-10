@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movelity - autobusy</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://ezdamin-course.b-cdn.net/course/style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo firmy Movelity">
+        <a href="http://moveli.ty" target="_blank">Strona główna</a>
+        <a href="http://">Rozkład jazdy</a>
+    </header>
+    <main>
+        <section>
+            <h1>Podróz autobusem, którą pokochasz.</h1>
+            <p>Odkyrwaj świat i podróżuj szybko i wygodnie. Zarezeruj swoje miejsce już teraz.</p>
+        </section>
+        <section>
+            <section>
+                <h3>Obsługiwane miasta</h3>
+                <ul>
+                    <li>Bydgoszcz</li>
+                    <li>Warszawa</li>
+                    <li>Kraków</li>
+                    <li>Poznań</li>
+                    <li>Gdańsk</li>
+                    <li>Białystok</li>
+                    <li>Gliwice</li>
+                    <li>Lublin</li>
+                    <li>Toruń</li>
+                    <li>Zielona góra</li>
+                    <ol>    
+                        <li>Suwałki</li>
+                    </ol>
+                </ul>
+            </section>
+            <section>
+                <h3>Najpopularniejsze połączenia</h3>
+                <ol>
+                    <li>Warszawa > Gdańsk</li>
+                    <li>Katowice > Kraków</li>
+                    <li>Bydgoszcz > Warszawa</li>
+                    <li>Gdańsk > Katowice</li>
+                    <li>Warszawa > Kraków</li>
+                </ol>
+            </section>
+        </section>
+        <section>
+            <h2>Dlaczego movelity?</h2>
+            <p>Movelity w sposób wzorcowy przewozi ludzi, w sposób błyskawiczny, jesteśmy w czołowce krajowej</p>
+            <img src="autobus.png" alt="Biały autobus">
+        </section>
+        <section>
+            <h3>Zobacz wideo, jaka podróż cię czeka</h3>
+            <p>Movelity w sposób wzorcowy przewozi ludzi, w sposób błyskawiczny, jesteśmy w czołowce krajowej</p>
+            wideo reklamowe
+            <video src="reklama.mp4" autoplay loop controls muted></video>
+        </section>
+        <section>
+            <h3>Aktualny rozkład jazdy</h3>
+            <table>
+                <tr>
+                    <th>Numer autobusu</th>
+                    <th>Miasto odjazdu</th>
+                    <th>Miasto przyjazdu</th>
+                    <th>Godzina odjazdu</th>
+                    <th>Godzina przyjazdu</th>
+                </tr>
+                <tr>
+                    <td>BUS-1</td>
+                    <td>Warszawa</td>
+                    <td>Kraków</td>
+                    <td>08:33</td>
+                    <td>11:55</td>
+                </tr>
+                <tr>
+                    <td>BUS-2</td>
+                    <td>Gdańsk</td>
+                    <td>Wrocław</td>
+                    <td>09:53</td>
+                    <td>14:25</td>
+                </tr>
+                <tr>
+                    <td>BUS-3</td>
+                    <td>Warszawa</td>
+                    <td>Katowice</td>
+                    <td colspan="2">Autobus nie kursuje</td>
+                </tr>
+                <tr>
+                    <td>BUS-4</td>
+                    <td>Gdańsk</td>
+                    <td>Kraków</td>
+                    <td>08:33</td>
+                    <td rowspan="2">11:55</td>
+                </tr>
+                <tr>
+                    <td>BUS-5</td>
+                    <td>Poznań</td>
+                    <td>Wrocław</td>
+                    <td>09:53</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h3>Masz sugestie? Napisz do nas!</h3>
+            <p>Nasz formularz kontakowy jest zawsze dostępny. Chętnie bierzemy sugestie co można poprawić a co zmienić.</p>
+            <form action="" method="post">
+                <label>
+                    Imie
+                    <br>
+                    <input type="text" name="Imie">
+                </label>
+                <br>
+                <label>
+                    Nazwisko
+                    <br>
+                    <input type="text" name="Nazwisko">
+                </label>
+                <br>
+                <label>
+                    Adres e-mail
+                    <br>
+                    <input type="email" name="" id="">
+                </label>
+                <br>
+                <label>
+                    ile kursów przejechałeś
+                    <br>
+                    <input type="number" name="" id="" min="1" max="999">
+                </label>
+                <br>
+                <label>
+                    Miasto
+                    <br>
+                    <label>
+                        <input type="radio" name="miasto" id="">
+                        Kraków
+                        <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="miasto" id="">
+                        Warszawa
+                        <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="miasto" id="">
+                        Gdańsk
+                        <br>
+                    </label>
+                </label>
+                <br>
+                <label>
+                    Rodzaj sprawy
+                    <br>
+                    <select name="" id="">
+                        <option value="Rezerwacja">Błedna rezerwacja</option>
+                        <option value="Problem">Problem Techniczny</option>
+                    </select>
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="" id="">
+                    Zgoda na przesłanie formularza
+                    <br>
+                </label>
+                <button type="submit">
+                    Wyślij formularz
+                </button>
+                <button type="reset">
+                    Wyczyść
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <b>Pogrubiony</b>
+            <i>Pochylony</i>
+            <u>Podkreślony</u>
+            <s>Przekreślony</s>
+
+            <strong>Pogrubiony (semantyczny)</strong>
+            <em>Pochylony (semantyczny)</em>
+        </p>
+        tutaj jest stopka
+
+        <img src="logo.png" alt="Logo firmy Movelity">
+        <a href="tel:+123456789">+123456789</a>
+        <a href="mailto:Support@moveli.ty">Support@moveli.ty</a>
+    
+    </footer>
+</body>
+</html>
